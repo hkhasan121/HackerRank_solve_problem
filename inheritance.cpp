@@ -32,6 +32,6 @@
      cin>>x>>y;
      cout<<x<<" "<<y<<endl;
      RectangleArea area;
-     area.read_input(10,5);
+     area.read_input(x,y);
      area.display();
  }
